@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#top-cont{
+    display: flex;
+    justify-content: space-between;
+}
+#namelogo{
+    display: flex;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+#listitems{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+   
+    padding: 15px;
+}
+#name{
+    padding-top: 4%;
+ }
+ nav{
+    background-color: #06303F;
+    color: white;
+    padding: 2%;
+    position:sticky;
+    margin-right: 0;
+    
+ }
+ .afornav{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .afornav:hover{
+    background-color: white;
+    color: #06303F ;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+ }
+ #login{
+    width: 100%;
+    height: 90vh;
+    align-items: center;
+   display: flex;
+    justify-content: center;
+ }
+ #logdetails{
+    display: block;
+   background-color: #06303F;
+   color: white;
+   border-radius: 5px;
+  
+ }
+ #createaccount{
+    padding: 5%;
+    
+ }
+ #inputs{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+   padding: 10%;
+ }
+ #username ,#email, #password,#create{
+    padding: 4%;
+    margin-bottom: 2%;
+ }
+ #create{
+    width: 100%;
+    margin-top: 4%;
+    background-color:#06303F ;
+    color: white;
+    border: 2px solid white;}
+    
+ #create:hover{
+   box-shadow: 0 0 3px white;
+ }
+ #linklogin{
+    color: white;
+    text-decoration: none;
+ }
+ #linklogin:hover{
+   text-decoration: underline;
+ }
+ #successfull-creation{
+   display:none;
+   border: 3px solid #06303F;
+   flex-direction: column;
+   max-width: 400px;
+   justify-content: center;
+   align-items: center;
+   margin-left: 33%;
+   margin-right: auto;
+   margin-top: 10%;
+   padding: 5%;
+   font-family: monospace;
+ }
+ #handshake{
+   font-size: 3.0rem;
+ }
+ #contacts{
+   display: none;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 400px;
+   padding: 5%;
+   margin-left: 33%;
+   margin-top: 10%;
+   border: 3px solid #06303F;
+   
+ }
+ #user{
+   font-size: 3.5rem;
+   padding-bottom: 3%;
+ }
+ .contact-link{
+   text-decoration: none;
+   color: #06303F;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ #email-link{
+   text-decoration: none;
+   padding-top: 2%;
+   color: #06303F;
+   padding-bottom: 2%;
+ }
+ #email-link:hover{
+   background-color: #06303F;
+   color: white;
+   border-radius: 5px;
+   width: 100%;
+   padding-left: 15%;
+ }
+ #profile{
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35%;
+  margin-top: 10%;
+  padding:5% ;
+  max-width:500px ;
+  background-color: #06303F;
+  color: white;
+ }
+ .checks{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  
+ }
+ #name-place{
+  display: flex;
+  position: relative;
+ }
+ #penicon{
+  position: absolute;
+  color: #06303F;
+  right:8px;
+  transform: translateY(60%);
+  
+  font-size: 15px;
+ }
+ #idcont{
+  display: flex;
+  padding-top: 2%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+  align-items: center;
+ }
+ #idno{
+  min-width: 30px;
+  border: 2px solid white;
+ }
+ #quizcont{
+   display: none;
+   background-color: #06303F;
+   color: white;
+   padding: 5%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 400px;
+   margin-left: 35%;
+   margin-top: 10%;
+ }
+ #answrsection{
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4%;
+ }
+ .answrbutton{
+  margin-bottom: 2%;
+  margin-top: 2%;
+  width: 100%;
+  padding: 4%;
+ }
+ .nextfinishbtn{
+  width: 120px;
+  display: block;
+  padding: 2%;
+  background-color: #06303F;
+  border: 2px solid white;
+  color: white;
+ }
+ 
+ #signup.linkback{
+  background-color: white;
+    color: #06303F ;
+    width: 100px;
+    border-radius: 50px;
+    padding: 10px;
+ }
+ #contact-nav.linkback{
+  background-color: white;
+  color: #06303F ;
+  width: 100px;
+  border-radius: 50px;
+  padding: 10px;
+ }
+ #quiz.linkback{
+  background-color: white;
+  color: #06303F ;
+  width: 100px;
+  border-radius: 50px;
+  padding: 10px;
+ }
+ #signout.linkback{
+  background-color: white;
+  color: #06303F ;
+  width: 100px;
+  border-radius: 50px;
+  padding: 10px;
+ }
+ #profile-nav.linkback{
+  background-color: white;
+  color: #06303F ;
+  width: 100px;
+  border-radius: 50px;
+  padding: 10px;
+ }
+ #textappend1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: none;
+ }
+ #textappend2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: none;
+ }
+ #textappend3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+ }
+#eyeicon{
+  position: absolute;
+  right: 10px;
+  top: 35px;
+  color: #06303F;
+}
+#time{
+  margin-bottom: 2%;
+}
+#starttime{
+  padding: 1.5%;
+  margin-bottom: 2%;
+  border: none;
+  width: 150px;
+}
+#finishbtn{
+  display: none;
+}
+#nextbtn{
+  display: none;
+}
+.correct{
+  background-color: #9aeabc;
+}
+.wrong{
+  background-color: #ff9393;
+}
+ 
